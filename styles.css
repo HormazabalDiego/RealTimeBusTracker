@@ -1,0 +1,48 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    
+    background-image: url();
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: darkblue;
+    font-style: italic;
+    margin-bottom: 1%;
+}
+h2 {
+    
+    font-size: 1.5rem;
+    color: darkblue;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+#blue {
+    color: rgb(247, 0, 255);
+}
+
+#red {
+    color: rgb(0, 255, 0);
+}
+#map {
+    width: 80%;
+    height: 760px;
+    margin: 2% auto 5% auto;
+    border: solid 2px blue;
+}
